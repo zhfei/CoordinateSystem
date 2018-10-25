@@ -7,12 +7,12 @@
 //
 
 import UIKit
-
+//坐标系类型
 enum CoordinateType {
     case UIGraphics
     case UIBezierPath
 }
-
+//时针类型
 enum DirectionType {
     case onTime
     case unTime
@@ -52,9 +52,8 @@ class CoordinateView: UIView {
             setNeedsDisplay()
         }
     }
-    
     //日志
-    //swift属性默认不支持kvo,需要在属性前收到加“dynamic”
+    //swift属性默认不支持kvo,需要在属性前手动添加“dynamic”
     //或者在属性的willSet didSet方法中主动发送通知
     @objc dynamic var log: String = ""
     
@@ -107,7 +106,5 @@ class CoordinateView: UIView {
         log = String(format: "绘制弧度: %.4f Pi", endAngl/3.14)
         
         content?.strokePath()
-        
     }
-
 }

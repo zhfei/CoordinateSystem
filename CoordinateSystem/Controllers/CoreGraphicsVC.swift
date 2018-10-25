@@ -16,6 +16,7 @@ class CoreGraphicsVC: BaseViewController {
         // Do any additional setup after loading the view.
         coordinateView.coordinateType = .UIGraphics
     }
+    
     /*
     // MARK: - Navigation
 

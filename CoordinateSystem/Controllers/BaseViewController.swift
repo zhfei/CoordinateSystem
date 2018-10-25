@@ -9,7 +9,6 @@
 import UIKit
 
 class BaseViewController: UIViewController {
-
     @IBOutlet weak var coordinateView: CoordinateView!
     @IBOutlet weak var onTimeFlag: UILabel!
     @IBOutlet weak var logTextView: UITextView!

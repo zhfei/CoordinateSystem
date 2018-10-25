@@ -17,7 +17,6 @@ class BezierVC: BaseViewController {
         coordinateView.coordinateType = .UIBezierPath
     }
     
-
     /*
     // MARK: - Navigation
 
