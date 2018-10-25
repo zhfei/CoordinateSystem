@@ -13,6 +13,10 @@
 		918147152181D3C800C1E421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 918147142181D3C800C1E421 /* Assets.xcassets */; };
 		918147182181D3C800C1E421 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 918147162181D3C800C1E421 /* LaunchScreen.storyboard */; };
 		918147232181D3C800C1E421 /* CoordinateSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918147222181D3C800C1E421 /* CoordinateSystemTests.swift */; };
+		91CB255A2182040200B94F44 /* CoordinateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CB25592182040200B94F44 /* CoordinateView.swift */; };
+		91CB255D218204F200B94F44 /* CoreGraphicsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CB255C218204F200B94F44 /* CoreGraphicsVC.swift */; };
+		91CB255F2182050B00B94F44 /* BezierVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CB255E2182050B00B94F44 /* BezierVC.swift */; };
+		91CB256121821A5E00B94F44 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CB256021821A5E00B94F44 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		9181471E2181D3C800C1E421 /* CoordinateSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoordinateSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		918147222181D3C800C1E421 /* CoordinateSystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinateSystemTests.swift; sourceTree = "<group>"; };
 		918147242181D3C800C1E421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91CB25592182040200B94F44 /* CoordinateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinateView.swift; sourceTree = "<group>"; };
+		91CB255C218204F200B94F44 /* CoreGraphicsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicsVC.swift; sourceTree = "<group>"; };
+		91CB255E2182050B00B94F44 /* BezierVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierVC.swift; sourceTree = "<group>"; };
+		91CB256021821A5E00B94F44 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,8 @@
 		9181470C2181D3C600C1E421 /* CoordinateSystem */ = {
 			isa = PBXGroup;
 			children = (
+				91CB255B218204AD00B94F44 /* Controllers */,
+				91CB2558218203B000B94F44 /* Views */,
 				9181470D2181D3C600C1E421 /* AppDelegate.swift */,
 				9181470F2181D3C600C1E421 /* ViewController.swift */,
 				918147112181D3C600C1E421 /* Main.storyboard */,
@@ -94,6 +104,24 @@
 				918147242181D3C800C1E421 /* Info.plist */,
 			);
 			path = CoordinateSystemTests;
+			sourceTree = "<group>";
+		};
+		91CB2558218203B000B94F44 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				91CB25592182040200B94F44 /* CoordinateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		91CB255B218204AD00B94F44 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				91CB255C218204F200B94F44 /* CoreGraphicsVC.swift */,
+				91CB255E2182050B00B94F44 /* BezierVC.swift */,
+				91CB256021821A5E00B94F44 /* BaseViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,7 +226,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				918147102181D3C600C1E421 /* ViewController.swift in Sources */,
+				91CB255A2182040200B94F44 /* CoordinateView.swift in Sources */,
+				91CB255D218204F200B94F44 /* CoreGraphicsVC.swift in Sources */,
+				91CB255F2182050B00B94F44 /* BezierVC.swift in Sources */,
 				9181470E2181D3C600C1E421 /* AppDelegate.swift in Sources */,
+				91CB256121821A5E00B94F44 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
