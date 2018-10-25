@@ -8,9 +8,8 @@
 
 import UIKit
 
-class BezierVC: UIViewController {
+class BezierVC: BaseViewController {
 
-    @IBOutlet weak var coordinateView: CoordinateView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
