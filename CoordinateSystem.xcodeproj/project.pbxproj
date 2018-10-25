@@ -17,6 +17,7 @@
 		91CB255D218204F200B94F44 /* CoreGraphicsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CB255C218204F200B94F44 /* CoreGraphicsVC.swift */; };
 		91CB255F2182050B00B94F44 /* BezierVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CB255E2182050B00B94F44 /* BezierVC.swift */; };
 		91CB256121821A5E00B94F44 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CB256021821A5E00B94F44 /* BaseViewController.swift */; };
+		91CB256421821E3000B94F44 /* 坐标系.key in Resources */ = {isa = PBXBuildFile; fileRef = 91CB256321821E3000B94F44 /* 坐标系.key */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		91CB255C218204F200B94F44 /* CoreGraphicsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicsVC.swift; sourceTree = "<group>"; };
 		91CB255E2182050B00B94F44 /* BezierVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierVC.swift; sourceTree = "<group>"; };
 		91CB256021821A5E00B94F44 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		91CB256321821E3000B94F44 /* 坐标系.key */ = {isa = PBXFileReference; lastKnownFileType = file; path = "坐标系.key"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		9181470C2181D3C600C1E421 /* CoordinateSystem */ = {
 			isa = PBXGroup;
 			children = (
+				91CB256221821E3000B94F44 /* Resource */,
 				91CB255B218204AD00B94F44 /* Controllers */,
 				91CB2558218203B000B94F44 /* Views */,
 				9181470D2181D3C600C1E421 /* AppDelegate.swift */,
@@ -122,6 +125,14 @@
 				91CB256021821A5E00B94F44 /* BaseViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		91CB256221821E3000B94F44 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				91CB256321821E3000B94F44 /* 坐标系.key */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91CB256421821E3000B94F44 /* 坐标系.key in Resources */,
 				918147182181D3C800C1E421 /* LaunchScreen.storyboard in Resources */,
 				918147152181D3C800C1E421 /* Assets.xcassets in Resources */,
 				918147132181D3C600C1E421 /* Main.storyboard in Resources */,
