@@ -61,13 +61,14 @@ context?.drawRadialGradient(gradient!, startCenter: center, startRadius: radius*
  
 我记得上学时老师讲的坐标系是这样的： 
 
+![alt 图片](https://github.com/zhfei/CoordinateSystem/blob/master/CoordinateSystem/Resource/original_sequence.png "老师讲的")
 
 X轴指向右侧，Y轴指向上面。对应的弧度如图上标的那样。顺时针也是钟表表针转动的方向。这就是最早接触的坐标系，熟悉的单纯模样。
 
  
 
 在工作时，当我们往屏幕上布局UI时，用到的坐标系是下面这样：
-
+![alt 图片](https://github.com/zhfei/CoordinateSystem/blob/master/CoordinateSystem/Resource/ui_sequence.png "工作时用的")
 
 对于UI控件来讲的坐标系模式，X轴方向向右，Y轴方向向下。
 请注意弧度值也相应的转了方向，它是沿着X，Y指向的方向开始逐渐增加的。
@@ -97,15 +98,15 @@ X轴指向右侧，Y轴指向上面。对应的弧度如图上标的那样。顺
 
 实际效果图如下：
 
-
+![alt 图片](https://github.com/zhfei/CoordinateSystem/blob/master/CoordinateSystem/Resource/ber_sequence.gif "UIBezierPath顺时针模式")
 UIBezierPath顺时针模式下，从0到2PI的效果
 
-
+![alt 图片](https://github.com/zhfei/CoordinateSystem/blob/master/CoordinateSystem/Resource/ber_sequence_no.gif "UIBezierPath逆时针模式")
 UIBezierPath逆时针模式下，从0到2PI的效果
  
 
 然后突出的CoreGraphics表示不服，我就要与众不同。如下图：
-
+![alt 图片](https://github.com/zhfei/CoordinateSystem/blob/master/CoordinateSystem/Resource/quarz2d_sequence.png "我就要与众不同")
 
 说出来你可能不信，你会发现顺时针方向往上了。这明明是逆时针方向啊！WTF？
 
@@ -131,9 +132,10 @@ let content = UIGraphicsGetCurrentContext()
 
 实际效果如下：
 
+![alt 图片](https://github.com/zhfei/CoordinateSystem/blob/master/CoordinateSystem/Resource/cg_sequence.gif "CoreGraphics顺时针模式")
 CoreGraphics顺时针模式下，从0到2PI的效果
 
-
+![alt 图片](https://github.com/zhfei/CoordinateSystem/blob/master/CoordinateSystem/Resource/cg_sequence_no.gif "CoreGraphics逆时针模式")
 CoreGraphics逆时针模式下，从0到2PI的效果
 
  
